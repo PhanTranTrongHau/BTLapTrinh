@@ -22,3 +22,19 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 .vscode/settings.json
+src/com/hauptt2008110093/tuan6/TriangleTestDrive.java
+src/com/hauptt2008110093/tuan6/Amoeba.java
+src/com/hauptt2008110093/tuan6/Circle.java
+src/com/hauptt2008110093/tuan6/Circle.java
+src/com/hauptt2008110093/tuan6/CircleTestDrive.java
+src/com/hauptt2008110093/tuan6/Shape.java
+src/com/hauptt2008110093/tuan6/Square.java
+src/com/hauptt2008110093/tuan6/Square.java
+src/com/hauptt2008110093/tuan6/Circle.java
+src/com/hauptt2008110093/tuan6/Circle.java
+src/com/hauptt2008110093/tuan6/TriangleTestDrive.java
+src/com/hauptt2008110093/tuan6/Triangle.java
+src/com/hauptt2008110093/tuan6/SquareTestDrive.java
+src/com/hauptt2008110093/tuan6/Square.java
+.gitignore
+.gitignore
