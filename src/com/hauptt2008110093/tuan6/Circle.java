@@ -25,15 +25,5 @@ void xoay360Do(int xoay){
 void amThanhPhatra(){
     System.out.println("Pla Pla Pla ....");
 }
-static int coLon = 0;
-Circle(){
-    coLon++;
-}
-public int getSize(){
-    return size;
-}
-double dienTichHinhTron(double banKinh){
-    return 3.14*(banKinh*banKinh);
-}
 }
 

@@ -9,18 +9,7 @@ public class Square {
     boolean duocClick;
     double kichThuoc;
     int size;
-    static int kichCo = 0;
-
-Square(){
-    kichCo++;
-}
-Square(String a){
-    amThanh = a;
-}
-Square(String a, double b){
-    amThanh = a;
-    kichThuoc = b;
-}
+    
 Square(String a, boolean b, double c){
     amThanh = a;
     duocClick = b;
@@ -34,13 +23,8 @@ void xoay(int lanXoay){
     }    
     }
 void phatRaAmThanh(){
-    System.out.println("Ho oi ....");
+    System.out.println("Phat ra am thanh hinhvuong.hif ....");
 
 }
-public int getSize(){
-    return size ;
-}
-int dienTich(int canh){
-    return canh*canh;
-}
+
 }

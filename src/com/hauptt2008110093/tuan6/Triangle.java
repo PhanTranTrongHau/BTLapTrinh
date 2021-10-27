@@ -5,33 +5,25 @@
 package com.hauptt2008110093.tuan6;
 
 public class Triangle {
+    
     String amThanh;
-    boolean duocClick;
+    boolean click;
     double kichThuoc;
     int size;
 
-Triangle(String a, boolean b,double c){
+    Triangle(){}
+Triangle(String a, boolean b, double c){
     amThanh = a;
-    duocClick = b;
+    click = b;
     kichThuoc = c;
 }
-void xoay(int lanXoay){
-    while(lanXoay>0){
-        System.out.println("Tam giac xoay 360 do ");
-        lanXoay --;
-    }    
+void xoay360Do(int xoay){
+    while(xoay>0){
+        System.out.println("Hinh Tam Giac xoay ");
+        xoay --;
     }
-void phatRaAmThanh(){
-    System.out.println("ABCDEFJ ....");
-
 }
-public int getSize(){
-    return size ;
-}
-double kichThuocTG(double chieuCao, double canhDay ){
-    return (chieuCao*canhDay)/2;
-}
-Triangle(){
-    kichThuoc ++;
+void amThanhPhatra(){
+    System.out.println("Phat am thanh HTG.hif");
 }
 }
