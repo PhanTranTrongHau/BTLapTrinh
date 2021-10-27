@@ -11,9 +11,6 @@ public class Cat extends Animal {
     protected void eat(){
         System.out.println("Ăn kieu meo");
     }
-    protected void roam(){
-        System.out.println("Dao quanh can nha ");
-    }
     void chaseButterfly(){
         System.out.println("Đuổi bướm...");
     }

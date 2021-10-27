@@ -14,9 +14,6 @@ public class Dog extends Animal {
     protected void sleep(){
         System.out.println("Ngu vao ban ngay ");
     }
-    protected void roam(){
-        System.out.println("Dao quanh can nha ");
-    }
     void chaseCats(){
         System.out.println("Đuổi Mèo...");
     }
