@@ -4,7 +4,7 @@
 */
 package com.hauptt2008110093.tuan7;
 
-public class Tiger extends Animal {
+public class Tiger extends Canime {
     protected void makeNoise(){
         System.out.println("Grào Grào Grào ...");
     }
