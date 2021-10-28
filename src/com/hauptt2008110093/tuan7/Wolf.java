@@ -12,6 +12,6 @@ public class Wolf extends Animal {
         System.out.println("Ăn kiểu sói ");
 }
     protected void territory(){
-        System.out.println("Tính lãnh thổ rất cao nên thường xung đột về lãnh thổ");
+        System.out.println("Dạo quanh bảo vệ lãnh thổ");
     }
 }
