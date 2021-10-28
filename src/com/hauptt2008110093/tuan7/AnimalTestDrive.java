@@ -4,7 +4,7 @@
 */
 package com.hauptt2008110093.tuan7;
 
-import javax.print.attribute.standard.Fidelity;
+
 
 public class AnimalTestDrive {
     public static void main(String[] args) {
@@ -29,14 +29,14 @@ public class AnimalTestDrive {
         lion.eat();
         lion.sleep();
         filine.roam();
-        lion.hunt();
+       
 
         Tiger tiger = new Tiger();
         tiger.makeNoise();
         tiger.eat();
         tiger.sleep();
         filine.roam();
-        tiger.smell();
+        
 
         Wolf wolf = new Wolf();
         wolf.makeNoise();
