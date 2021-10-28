@@ -11,7 +11,5 @@ public class Tiger extends Animal {
     protected void eat(){
         System.out.println("An kieu ho ");
     }
-    protected void smell(){
-        System.out.println("Thính mùi máu hưng phấn khi ngửi thấy mùi máu");
-    }
+   
 }

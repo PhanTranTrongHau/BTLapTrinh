@@ -11,7 +11,5 @@ public class Lion extends Animal{
     protected void eat(){
         System.out.println("An kieu su tu ");
     }
-    protected void hunt(){
-        System.out.println("Săn mồi vào ban đêm rất linh hoạt ");
-    }
+   
 }
