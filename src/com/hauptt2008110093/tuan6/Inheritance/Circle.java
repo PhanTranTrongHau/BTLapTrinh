@@ -5,9 +5,10 @@
 package com.hauptt2008110093.tuan6.Inheritance;
 
 public class Circle extends Shape{
-    Circle(){}
-   public Circle(String s,boolean c){
 
+
+   public Circle(String s){
+       super(s);
    }
 }
 

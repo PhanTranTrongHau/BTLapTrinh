@@ -5,8 +5,8 @@
 package com.hauptt2008110093.tuan6.Inheritance;
 
 public class Triangle extends Shape {
-    Triangle(){}
+    
     public Triangle(String s){
-
+        super(s);
     }
 }

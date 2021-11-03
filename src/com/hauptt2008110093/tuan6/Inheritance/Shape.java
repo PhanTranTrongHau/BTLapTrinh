@@ -14,6 +14,21 @@ public void rotate(){
 }
 
 public void playSound(){
-    System.out.println("Phat ra file am thanh ");
+    System.out.println("Phat ra file am thanh "+getSound());
+}
+public Shape(String s){
+  sound = s;
+}
+/**
+ * @return the sound
+ */
+public String getSound() {
+    return sound;
+}
+/**
+ * @param sound the sound to set
+ */
+public void setSound(String sound) {
+    this.sound = sound;
 }
 }

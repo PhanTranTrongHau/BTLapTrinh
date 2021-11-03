@@ -5,9 +5,10 @@
 package com.hauptt2008110093.tuan6.Inheritance;
 
 public class Square extends Shape {
-    Square(){}
-    public Square(String s){
+    
 
+    public Square(String s){
+        super(s);
     }
 
 }

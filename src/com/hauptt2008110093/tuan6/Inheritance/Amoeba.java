@@ -4,20 +4,24 @@
 */
 package com.hauptt2008110093.tuan6.Inheritance;
 
-public class Amoeba {
+public class Amoeba extends Shape {
    
     int x; 
     int y;
-public Amoeba(String s){}
 
+public Amoeba(String s){
+    super(s);
+}
 public Amoeba(String s, int xx, int yy){
+    super(s);
     x = xx;
     y = yy;
 }
-void rotate(){
+public void rotate(){
     System.out.println("Xoay theo toa do x: "+ x +" y:"+y);
 }
-void playSound(){
-    System.out.println(" Phat ra file am thanh ten ");
+
+public void playSound(){
+    System.out.println("Phat ra am thanh co ten "+getSound());
 }
 }
