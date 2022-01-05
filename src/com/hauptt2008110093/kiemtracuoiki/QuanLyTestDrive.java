@@ -62,8 +62,8 @@ public class QuanLyTestDrive {
 			System.out.println("5. Tim Kiem Theo Gia");
 			System.out.println("6. Sap Xep Danh Sach Tang Dan Theo Gia ");
 			System.out.println("7. Sap Xep Danh Sach Giam Dan Theo Gia ");
-			System.out.println("8. Sap Xep Danh Sach Theo Ma Tang Dan ");
-			System.out.println("9. Sap Xep Theo Ma Giam Dan");
+			System.out.println("8. Sap Xep Danh Sach Theo Ngay Tang Dan ");
+			System.out.println("9. Sap Xep Theo Ngay Giam Dan");
 			System.out.println("10. Tong So Luong Hang Hoa");
 			System.out.println("11. Tong Gia Tri Nhap Kho");
 			System.out.println("12. Tong So Luong Tung Loai");
@@ -157,7 +157,7 @@ public class QuanLyTestDrive {
 			}
 				case 5:
 					dS.timKiemTheoGia();
-						dS.inDS();
+						
 					break;
 				case 6:
 					dS.sapXepTheoGiaTangDan();

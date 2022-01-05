@@ -1,7 +1,4 @@
-/*
-* ngày tạo: Jan 03, 2022
-*Tác giả: Phan Trần Trọng Hậu 
-*/
+
 package com.hauptt2008110093.kiemtracuoiki;
 
 import java.text.DecimalFormat;
@@ -29,21 +26,6 @@ public class DanhSachQuanLy {
     public void them(HangHoa hangHoa) throws ParseException{
         danhSach.add(hangHoa);
     
-        /*int count = 0 ;
-        for(int i = 0 ; i < danhSach.size() ; i++){
-            HangHoa hangHoa2 = danhSach.get(i);
-            if(hangHoa2.getMaHangHoa().equalsIgnoreCase(hangHoa.getMaHangHoa()) || hangHoa2.getMaHangHoa().equalsIgnoreCase("HTP-") ||hangHoa2.getMaHangHoa().equalsIgnoreCase("HSS-") || hangHoa2.getMaHangHoa().equalsIgnoreCase("HDM-") ){
-                System.out.println("Khong the nhan ");
-                count++ ;
-                them(hangHoa);;
-                break;
-            }
-        }
-        if(count == 0){
-            danhSach.add(hangHoa);
-        }
-        
-            System.out.println(danhSach);*/
     }
         public void inDS(){
             for(HangHoa hangHoa:danhSach){
@@ -125,27 +107,28 @@ public class DanhSachQuanLy {
             }
             System.out.println();
         }
+        public void timTheoThucPham(){
+            for(int i = 0 ; i < danhSach.size() ; i++){
+            HangHoa a = danhSach.get(i);
+            if(a instanceof ThucPham){
+                timThucPham();
+            }
+        }
+    }
         
         public void timKiemTheoGia(){
             System.out.println("Nhap khoang gia can tim kiem tu : ");
-            long giaBatDau = luaChon.nextInt();
+            float giaBatDau = luaChon.nextInt();
             System.out.println(" den : ");
-            long giaKetThuc = luaChon.nextInt();
+            float giaKetThuc = luaChon.nextInt();
             for(int i = 0 ; i < danhSach.size() ; i++){
                 HangHoa x = danhSach.get(i);
                 if(x.getGiaNhap() >= giaBatDau && x.getGiaNhap() <= giaKetThuc){
-                    if(x instanceof ThucPham){
-                        timThucPham();
-                    }
-                    else if(x instanceof SanhSu){
-                        timSanhSu();
-                    }
-                    else if(x instanceof DienMay){
-                        timDienMay();
+                    inDS();
                     }
                 }
             }
-        }
+
 
         public int tongsoluonghanghoa() {
             int dem = 0;
@@ -180,7 +163,6 @@ public class DanhSachQuanLy {
     
                 @Override
                 public int compare(HangHoa o1, HangHoa o2) {
-                    // TODO Auto-generated method stub
                     return Double.compare(o1.getGiaNhap(), o2.getGiaNhap());
                 }
             });
@@ -226,7 +208,7 @@ public class DanhSachQuanLy {
                 @Override
                 public int compare(HangHoa o1, HangHoa o2) {
                     // TODO Auto-generated method stub
-                    if(o1.getNgayNhapKho().compareTo(o2.getNgayNhapKho()) < 0){
+                    if(o2.getNgayNhapKho().compareTo(o1.getNgayNhapKho()) < 0){
                         return 1 ;
                     }
                     else {
