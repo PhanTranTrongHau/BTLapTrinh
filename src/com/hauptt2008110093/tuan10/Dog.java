@@ -2,8 +2,7 @@
 * ngày tạo: Oct 27, 2021
 *Tác giả: Phan Trần Trọng Hậu 
 */
-package com.hauptt2008110093.tuan7;
-
+package com.hauptt2008110093.tuan10;
 public class Dog extends Animal {
     public void makeNoise(){
         System.out.println("Gau Gau Gau Gau ...");

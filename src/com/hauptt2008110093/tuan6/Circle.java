@@ -4,26 +4,11 @@
 */
 package com.hauptt2008110093.tuan6;
 
-public class Circle {
-    String amThanh;
-    boolean click;
-    double kichThuoc;
-    int size;
+public class Circle extends Shape {
 
+void phatRaAmThanh(){
+    System.out.println("Phat ra am thanh hinh tron.hif....");
 
-Circle(String a, boolean b, double c){
-    amThanh = a;
-    click = b;
-    kichThuoc = c;
-}
-void xoay360Do(int xoay){
-    while(xoay>0){
-        System.out.println("Hinh tron xoay ");
-        xoay --;
-    }
-}
-void amThanhPhatra(){
-    System.out.println("Pla Pla Pla ....");
 }
 }
 
