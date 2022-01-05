@@ -1,7 +1,4 @@
-/*
-* ngày tạo: Jan 04, 2022
-*Tác giả: Phan Trần Trọng Hậu 
-*/
+
 package com.hauptt2008110093.kiemtracuoiki;
 import java.text.DecimalFormat;
 import java.text.ParseException;
@@ -30,17 +27,19 @@ public class SanhSu extends HangHoa {
      */
     public String getKichThuoc() {
         return kichThuoc;
+
     }
     /**
      * @param kichThuoc the kichThuoc to set
      */
     public void setKichThuoc(String kichThuoc) {
         this.kichThuoc = kichThuoc;
+
     }
     @Override
     public String toString() {
         String nhap;
-        nhap = super.toString() + String.format("  %-15s %-25s",getNoiSanXuat(),getKichThuoc());
+        nhap = super.toString() + String.format(" %-15s %-25s",getNoiSanXuat(),getKichThuoc());
         return nhap;
     }
 }

@@ -1,7 +1,4 @@
-/*
-* ngày tạo: Jan 05, 2022
-*Tác giả: Phan Trần Trọng Hậu 
-*/
+
 package com.hauptt2008110093.kiemtracuoiki;
 import java.text.DecimalFormat;
 import java.text.ParseException;
@@ -40,7 +37,7 @@ public class DienMay extends HangHoa{
     @Override
     public String toString() {
         String nhap ;
-        nhap = super.toString() + String.format("  %-20s %-20s", getCongSuat(),getBaoHanh());
+        nhap = super.toString() + String.format(" %-20s %-20s", getCongSuat(),getBaoHanh());
         return nhap ;
     }
 }

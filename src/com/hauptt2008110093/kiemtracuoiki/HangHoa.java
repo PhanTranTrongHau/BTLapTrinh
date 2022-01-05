@@ -1,7 +1,4 @@
-/*
-* ngày tạo: Jan 03, 2022
-*Tác giả: Phan Trần Trọng Hậu 
-*/
+
 package com.hauptt2008110093.kiemtracuoiki;
 
 import java.text.DecimalFormat;

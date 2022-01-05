@@ -1,7 +1,4 @@
-/*
-* ngày tạo: Jan 03, 2022
-*Tác giả: Phan Trần Trọng Hậu 
-*/
+
 package com.hauptt2008110093.kiemtracuoiki;
 
 
@@ -75,7 +72,7 @@ public class QuanLyTestDrive {
 			x = sc.nextInt();
 			
 			while (x < 0 || x > 12) {
-				System.out.print("\nNhap lai lua chon (0-13): ");
+				System.out.print("\nNhap lai lua chon (0-12): ");
 				x = sc.nextInt();
 			}
 			
@@ -134,28 +131,30 @@ public class QuanLyTestDrive {
                      System.out.println("\nTim Sanh Su");
                      System.out.println("\nTim Dien May");   
 					 System.out.print("\nNhap Loai Can Tim: ");
-					 y = sc.nextInt();
+					 y = scanner.nextInt();
 			        while (y < 0 || y > 3) {
 			    	System.out.print("\nNhap lai lua chon (1-3): ");
                     switch(y){
                         case 1:
-                        dS.timThucPham();
+						System.out.println("Tim thay");
+                        dS.timTheoThucPham();
                         break;
                         case 2:
+						System.out.println("Tim thay");
                         dS.timSanhSu();
                         break;
                         case 3:
+						System.out.println("Tim thay");
                         dS.timDienMay();
                         break;
+					}
+						while (x < 0 || x > 3) {
+							System.out.print("\nNhap lai lua chon (0-3): ");
+							x = sc.nextInt();
                     }
-				    y = sc.nextInt();
-                    }
-	                System.out.println("Tim thay");
-	                dS.inDS();
                     break;
-                }
-	                    
-	                
+				}
+			}
 				case 5:
 					dS.timKiemTheoGia();
 						dS.inDS();
